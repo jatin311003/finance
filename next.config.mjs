@@ -1,6 +1,4 @@
-// next.config.js
-const { withNetlify } = require('@netlify/next');
-
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
     remotePatterns: [
@@ -18,4 +16,4 @@ const nextConfig = {
   },
 };
 
-module.exports = withNetlify(nextConfig);
+export default nextConfig;
