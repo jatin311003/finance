@@ -1,0 +1,3 @@
+[submodule "FinanceTracker"]
+	path = FinanceTracker
+	url = https://github.com/jatin311003/FinanceTracker.git
